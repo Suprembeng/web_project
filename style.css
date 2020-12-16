@@ -1,0 +1,233 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  position: relative;
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.promo {
+  height: 800px;
+  background: url(2-layers.png) center center/cover no-repeat;
+  padding: 39px 0 62px 0;
+}
+
+.logo .logo_img {
+  display: block;
+  margin: 0 auto;
+}
+
+.logo .logo_text {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 14px;
+}
+
+h1 {
+  margin-top: 53px;
+}
+
+h2.title {
+  margin-top: 30px;
+}
+
+.title {
+  color: #f9bf3b;
+  font-family: "Roboto - Black";
+  font-size: 41px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.simple .title_big {
+  color: #ffffff;
+  font-family: "Roboto - Black";
+  font-size: 80px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 21px;
+}
+
+.promo .promo_text {
+  color: #ffffff;
+  padding: 0 13px;
+  margin-top: 23px;
+  font-size: 21px;
+  font-weight: 300;
+  text-align: center;
+  font-family: "Roboto Light";
+  text-align: center;
+}
+
+.promo .promo_text span {
+  color: #f9bf3b;
+  font-family: "Roboto - Bold";
+  font-weight: 700;
+}
+
+.promo .promo_btn {
+  width: 313px;
+  display: block;
+  margin: 73px auto;
+  height: 72px;
+  box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.18);
+  border: 4px solid rgba(0, 0, 0, 0.23);
+  background-image: linear-gradient(to top, #2798b9 0%, #3ab6da 100%);
+  text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.22);
+  color: #ffffff;
+  font-family: "Roboto Condensed";
+  font-size: 21px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.more {
+  margin-top: 73px;
+}
+
+.more .more_text {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Roboto - Thin";
+  font-size: 15px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.more .more_img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 13px;
+}
+
+.waiting {
+  width: 1920px;
+  height: 604px;
+  background-color: #efefef;
+  padding: 85px 0 75px 0;
+}
+
+.waiting .waiting_header {
+  color: #252525;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.waiting .waiting_divider {
+  display: block;
+  margin: 0 auto;
+  margin-top: 18px;
+  width: 217px;
+  height: 4px;
+  background-color: #f9bf3b;
+}
+
+.waiting .waiting_subheader {
+  color: #4a4a4a;
+  font-family: Roboto;
+  font-size: 23px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 17px;
+}
+
+.waiting .waiting_wrapper {
+  display: flex;
+  margin-top: 45px;
+  justify-content: space-between;
+
+}
+
+.waiting .waiting_wrapper .waiting_item {
+  margin: 0 15px;
+  width: 339px;
+  text-align: center;
+}
+
+.waiting .waiting_wrapper .waiting_item .waiting_descr {
+  color: #4a4a4a;
+  margin-top: 33px;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.optimization {
+  min-height: 550px;
+  padding: 102px 0 107px 0;
+}
+
+.optimization .optimization_header {
+  margin-left: 391px;
+  color: #299cbd;
+font-family: "Roboto - Black";
+font-size: 30px;
+font-weight: 400;
+text-transform: uppercase;
+}
+
+.optimization .optimization_text {
+  margin-top: 25px;
+  margin-left: 391px;
+  color: #4a4a4a;
+font-family: Roboto;
+font-size: 17px;
+font-weight: 300;
+font-style: normal;
+letter-spacing: normal;
+line-height: 27px;
+text-align: justifyLeft;
+}
+
+.optimization .optimization_text span {
+  font-family: "Roboto - Bold";
+font-weight: 700;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+}
+
+.optimization .optimization_img {
+  position: absolute;
+  top: -54px;
+  left: -240px;
+  z-index: -1;
+
+}
+
+.gift .gift1 {
+  display: block;
+  margin: 0 auto;
+}
